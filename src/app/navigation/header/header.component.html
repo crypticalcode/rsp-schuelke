@@ -1,0 +1,36 @@
+<mat-toolbar color="primary">
+  <div fxHide.gt-sm>
+    <button mat-icon-button (click)="onToggleSidenav()">
+      <mat-icon>menu</mat-icon>
+    </button>
+  </div>
+
+  <div>
+    <a mat-button routerLink="/home">
+      <img src="assets/logo-rsp1.png" class="logo" />
+    </a>
+  </div>
+  <div fxFlex fxLayout fxLayoutAlign="end" fxHide.lt-md>
+    <ul fxLayoutGap="15px" class="navigation-items">
+      <li>
+        <!-- routerLinkActive="mat-accent" -->
+        <a mat-button routerLink="/company">Unternehmen</a>
+      </li>
+      <li>
+        <a mat-button routerLink="/products">Produkte</a>
+      </li>
+      <li>
+        <a mat-button routerLink="/service">Service</a>
+      </li>
+      <li>
+        <a mat-button routerLink="/certification">Zertifizierung</a>
+      </li>
+      <li>
+        <a mat-button routerLink="/contact">Kontakt</a>
+      </li>
+      <li>
+        <a mat-button routerLink="/legal">Impressum</a>
+      </li>
+    </ul>
+  </div>
+</mat-toolbar>
