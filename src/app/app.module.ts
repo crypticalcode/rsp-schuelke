@@ -21,6 +21,7 @@ import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
 import { CertificationComponent } from './certification/certification.component';
 import { MatCardModule } from '@angular/material/card';
+import { FooterComponent } from './footer/footer.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -34,6 +35,7 @@ import { MatCardModule } from '@angular/material/card';
     HomeComponent,
     ContactComponent,
     CertificationComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
